@@ -201,17 +201,37 @@
     }
   }
 }
+.slider_section {
+  margin-top: 60px;
+  h5 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  h6 {
+    text-align: center;
+    font-size: 19px;
+    color: rgba($color: #000000, $alpha: 0.5);
+    margin-bottom: 60px;
+  }
+}
 .slider__content {
-  height: 450px;
+  height: 370px;
   max-width: 850px;
   margin: 0 auto;
+  background: #754ef9;
 }
 .first__slider-content {
-  background-color: red;
   display: flex;
   justify-content: center;
+  background: #fff;
   align-items: center;
   flex-direction: column;
+  width: calc(100% - 34px);
+  height: 380px;
+  margin-left: 17px;
+  box-shadow: 0px 5px 10px rgba($color: #000000, $alpha: 0.08);
   h4 {
     font-size: 18px;
     font-weight: 600;
@@ -222,12 +242,15 @@
     color: rgba($color: #202020, $alpha: 0.5);
     padding: 0px 50px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
 }
 .slick-dots {
   display: flex;
   justify-content: center;
+  background: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 .slick-dots button {
   background-color: rgba($color: #754ef9, $alpha: 0.15);
@@ -240,6 +263,15 @@
 }
 .slick-dots .slick-active button {
   background-color: #754ef9;
+}
+.second__slider {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+}
+.contact_section {
+  margin-top: 200px;
 }
 .contact_wrapper {
   text-align: center;
