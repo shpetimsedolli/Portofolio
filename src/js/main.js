@@ -3,6 +3,7 @@
     $(() => {
         //##Variables
         //End Variablesn
+        
         $('.slider__content').slick({
             infinite: true,
             slidesToShow: 1,
@@ -27,5 +28,10 @@
         }
       });
     });
+    window.addEventListener('load', function(){
+        document.getElementById('load_screen').style.opacity = '0';
+        document.getElementById('load_screen').style.zIndex = '-1';
+     
+    })
   }
   )(window.jQuery, window, document);
