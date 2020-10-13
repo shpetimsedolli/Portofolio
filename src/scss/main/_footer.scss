@@ -1,0 +1,25 @@
+.main_footer {
+  background-color: #754ef9;
+}
+.footerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0px;
+  ul {
+    display: flex;
+    li {
+      margin-right: 55px;
+      color: rgba($color: #fff, $alpha: 0.75);
+      font-size: 15px;
+    }
+  }
+}
+.social__icons {
+  a {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
