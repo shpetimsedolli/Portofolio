@@ -11,7 +11,11 @@
             prevArrow: false,
             nextArrow: false
           });
-              
+          $('.about--nav').click(function() {
+            $('html,body').animate({
+                scrollTop: $(".about_section").offset().top},
+                'slow');
+        });
         document.querySelector(".hamburger").addEventListener("click", function (e) {
           document.querySelector(".nav_wrapper").classList.toggle("is--toggled");
         });
