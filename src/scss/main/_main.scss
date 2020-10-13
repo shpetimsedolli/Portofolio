@@ -201,6 +201,46 @@
     }
   }
 }
+.slider__content {
+  height: 450px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.first__slider-content {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0px;
+  }
+  p {
+    font-size: 14px;
+    color: rgba($color: #202020, $alpha: 0.5);
+    padding: 0px 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+.slick-dots button {
+  background-color: rgba($color: #754ef9, $alpha: 0.15);
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 0;
+  margin-right: 10px;
+}
+.slick-dots .slick-active button {
+  background-color: #754ef9;
+}
 .contact_wrapper {
   text-align: center;
   h4 {
